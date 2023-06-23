@@ -1,0 +1,31 @@
+/*
+Paragraph classes 
+-the paragraph three contains 2 different classes
+-theres the pGeneral utilized to all the paragraphs 
+-and a exclusive numThree class to choose a different font size
+-only to paragraph 3 element. 
+*/ 
+.pGeneral {
+    font-family:Verdana, "DejaVu Sans", sans-serif;
+    background-color:rgb(255, 192, 203);
+    font-size:20px;
+}
+
+.numThree {
+    font-size:25px;
+}
+
+/*
+div ids 
+*/
+
+#numTwo {
+    color:rgb(0, 0, 255);
+    font-size:35px;
+}
+
+#numFour {
+    font-size:23px;
+    font-weight:bold;
+    background-color:rgb(144, 238, 144);
+}

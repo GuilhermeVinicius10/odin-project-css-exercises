@@ -1,0 +1,17 @@
+/* 
+What we made in the exercise? 
+-We made use of "chaining Selectors", sometimes 2 elements share
+-the same class, so in order to select just one element we can use
+the following syntax: class1.class2 or class1#id1.
+*/
+
+
+.avatar.proportioned {
+width:300px;
+height:auto;
+}
+
+.avatar.distorted {
+width:200px;
+height:400px;
+}

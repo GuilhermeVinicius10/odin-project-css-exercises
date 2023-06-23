@@ -1,0 +1,32 @@
+
+/*
+Grouping Selector for leftBu and rightBu 
+It's used when both classes share some equal property 
+*/
+.leftBu,
+.rightBu {
+    font-size: 50px;
+    outline-width: 8px;
+    outline-style:solid;
+    outline-color:rgb(255, 255, 255);
+    border-width: 3px;
+}
+
+/*
+Everything that is specific to each class, can be put inside 
+individual class.
+*/
+.leftBu{
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+
+.rightBu {
+    background-color: rgb(255, 255, 0);
+}
+
+
+
+.body {
+    background-color: rgb(0, 0, 0);
+}
